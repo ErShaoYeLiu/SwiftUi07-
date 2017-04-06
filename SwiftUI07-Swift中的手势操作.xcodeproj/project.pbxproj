@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF1CEF4E1E95E4AA00E37555 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1CEF4D1E95E4AA00E37555 /* AppDelegate.swift */; };
+		CF1CEF501E95E4AA00E37555 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1CEF4F1E95E4AA00E37555 /* ViewController.swift */; };
+		CF1CEF531E95E4AA00E37555 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1CEF511E95E4AA00E37555 /* Main.storyboard */; };
+		CF1CEF551E95E4AA00E37555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1CEF541E95E4AA00E37555 /* Assets.xcassets */; };
+		CF1CEF581E95E4AA00E37555 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1CEF561E95E4AA00E37555 /* LaunchScreen.storyboard */; };
+		CF1CEF631E95E4AA00E37555 /* SwiftUI07_Swift______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1CEF621E95E4AA00E37555 /* SwiftUI07_Swift______Tests.swift */; };
+		CF1CEF6E1E95E4AA00E37555 /* SwiftUI07_Swift______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1CEF6D1E95E4AA00E37555 /* SwiftUI07_Swift______UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF1CEF5F1E95E4AA00E37555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF1CEF421E95E4AA00E37555 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF1CEF491E95E4AA00E37555;
+			remoteInfo = "SwiftUI07-Swift中的手势操作";
+		};
+		CF1CEF6A1E95E4AA00E37555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF1CEF421E95E4AA00E37555 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF1CEF491E95E4AA00E37555;
+			remoteInfo = "SwiftUI07-Swift中的手势操作";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF1CEF4A1E95E4AA00E37555 /* SwiftUI07-Swift中的手势操作.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI07-Swift中的手势操作.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1CEF4D1E95E4AA00E37555 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF1CEF4F1E95E4AA00E37555 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF1CEF521E95E4AA00E37555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF1CEF541E95E4AA00E37555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF1CEF571E95E4AA00E37555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF1CEF591E95E4AA00E37555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF1CEF5E1E95E4AA00E37555 /* SwiftUI07-Swift中的手势操作Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI07-Swift中的手势操作Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1CEF621E95E4AA00E37555 /* SwiftUI07_Swift______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUI07_Swift______Tests.swift"; sourceTree = "<group>"; };
+		CF1CEF641E95E4AA00E37555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF1CEF691E95E4AA00E37555 /* SwiftUI07-Swift中的手势操作UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI07-Swift中的手势操作UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1CEF6D1E95E4AA00E37555 /* SwiftUI07_Swift______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUI07_Swift______UITests.swift"; sourceTree = "<group>"; };
+		CF1CEF6F1E95E4AA00E37555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF1CEF471E95E4AA00E37555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1CEF5B1E95E4AA00E37555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1CEF661E95E4AA00E37555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF1CEF411E95E4AA00E37555 = {
+			isa = PBXGroup;
+			children = (
+				CF1CEF4C1E95E4AA00E37555 /* SwiftUI07-Swift中的手势操作 */,
+				CF1CEF611E95E4AA00E37555 /* SwiftUI07-Swift中的手势操作Tests */,
+				CF1CEF6C1E95E4AA00E37555 /* SwiftUI07-Swift中的手势操作UITests */,
+				CF1CEF4B1E95E4AA00E37555 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF1CEF4B1E95E4AA00E37555 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF1CEF4A1E95E4AA00E37555 /* SwiftUI07-Swift中的手势操作.app */,
+				CF1CEF5E1E95E4AA00E37555 /* SwiftUI07-Swift中的手势操作Tests.xctest */,
+				CF1CEF691E95E4AA00E37555 /* SwiftUI07-Swift中的手势操作UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1CEF4C1E95E4AA00E37555 /* SwiftUI07-Swift中的手势操作 */ = {
+			isa = PBXGroup;
+			children = (
+				CF1CEF4D1E95E4AA00E37555 /* AppDelegate.swift */,
+				CF1CEF4F1E95E4AA00E37555 /* ViewController.swift */,
+				CF1CEF511E95E4AA00E37555 /* Main.storyboard */,
+				CF1CEF541E95E4AA00E37555 /* Assets.xcassets */,
+				CF1CEF561E95E4AA00E37555 /* LaunchScreen.storyboard */,
+				CF1CEF591E95E4AA00E37555 /* Info.plist */,
+			);
+			path = "SwiftUI07-Swift中的手势操作";
+			sourceTree = "<group>";
+		};
+		CF1CEF611E95E4AA00E37555 /* SwiftUI07-Swift中的手势操作Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CF1CEF621E95E4AA00E37555 /* SwiftUI07_Swift______Tests.swift */,
+				CF1CEF641E95E4AA00E37555 /* Info.plist */,
+			);
+			path = "SwiftUI07-Swift中的手势操作Tests";
+			sourceTree = "<group>";
+		};
+		CF1CEF6C1E95E4AA00E37555 /* SwiftUI07-Swift中的手势操作UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF1CEF6D1E95E4AA00E37555 /* SwiftUI07_Swift______UITests.swift */,
+				CF1CEF6F1E95E4AA00E37555 /* Info.plist */,
+			);
+			path = "SwiftUI07-Swift中的手势操作UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF1CEF491E95E4AA00E37555 /* SwiftUI07-Swift中的手势操作 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF1CEF721E95E4AA00E37555 /* Build configuration list for PBXNativeTarget "SwiftUI07-Swift中的手势操作" */;
+			buildPhases = (
+				CF1CEF461E95E4AA00E37555 /* Sources */,
+				CF1CEF471E95E4AA00E37555 /* Frameworks */,
+				CF1CEF481E95E4AA00E37555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI07-Swift中的手势操作";
+			productName = "SwiftUI07-Swift中的手势操作";
+			productReference = CF1CEF4A1E95E4AA00E37555 /* SwiftUI07-Swift中的手势操作.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF1CEF5D1E95E4AA00E37555 /* SwiftUI07-Swift中的手势操作Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF1CEF751E95E4AA00E37555 /* Build configuration list for PBXNativeTarget "SwiftUI07-Swift中的手势操作Tests" */;
+			buildPhases = (
+				CF1CEF5A1E95E4AA00E37555 /* Sources */,
+				CF1CEF5B1E95E4AA00E37555 /* Frameworks */,
+				CF1CEF5C1E95E4AA00E37555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF1CEF601E95E4AA00E37555 /* PBXTargetDependency */,
+			);
+			name = "SwiftUI07-Swift中的手势操作Tests";
+			productName = "SwiftUI07-Swift中的手势操作Tests";
+			productReference = CF1CEF5E1E95E4AA00E37555 /* SwiftUI07-Swift中的手势操作Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF1CEF681E95E4AA00E37555 /* SwiftUI07-Swift中的手势操作UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF1CEF781E95E4AA00E37555 /* Build configuration list for PBXNativeTarget "SwiftUI07-Swift中的手势操作UITests" */;
+			buildPhases = (
+				CF1CEF651E95E4AA00E37555 /* Sources */,
+				CF1CEF661E95E4AA00E37555 /* Frameworks */,
+				CF1CEF671E95E4AA00E37555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF1CEF6B1E95E4AA00E37555 /* PBXTargetDependency */,
+			);
+			name = "SwiftUI07-Swift中的手势操作UITests";
+			productName = "SwiftUI07-Swift中的手势操作UITests";
+			productReference = CF1CEF691E95E4AA00E37555 /* SwiftUI07-Swift中的手势操作UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF1CEF421E95E4AA00E37555 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = UTOUU;
+				TargetAttributes = {
+					CF1CEF491E95E4AA00E37555 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 744C2UT6NN;
+						ProvisioningStyle = Automatic;
+					};
+					CF1CEF5D1E95E4AA00E37555 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 744C2UT6NN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF1CEF491E95E4AA00E37555;
+					};
+					CF1CEF681E95E4AA00E37555 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 744C2UT6NN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF1CEF491E95E4AA00E37555;
+					};
+				};
+			};
+			buildConfigurationList = CF1CEF451E95E4AA00E37555 /* Build configuration list for PBXProject "SwiftUI07-Swift中的手势操作" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1CEF411E95E4AA00E37555;
+			productRefGroup = CF1CEF4B1E95E4AA00E37555 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF1CEF491E95E4AA00E37555 /* SwiftUI07-Swift中的手势操作 */,
+				CF1CEF5D1E95E4AA00E37555 /* SwiftUI07-Swift中的手势操作Tests */,
+				CF1CEF681E95E4AA00E37555 /* SwiftUI07-Swift中的手势操作UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF1CEF481E95E4AA00E37555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1CEF581E95E4AA00E37555 /* LaunchScreen.storyboard in Resources */,
+				CF1CEF551E95E4AA00E37555 /* Assets.xcassets in Resources */,
+				CF1CEF531E95E4AA00E37555 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1CEF5C1E95E4AA00E37555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1CEF671E95E4AA00E37555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF1CEF461E95E4AA00E37555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1CEF501E95E4AA00E37555 /* ViewController.swift in Sources */,
+				CF1CEF4E1E95E4AA00E37555 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1CEF5A1E95E4AA00E37555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1CEF631E95E4AA00E37555 /* SwiftUI07_Swift______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1CEF651E95E4AA00E37555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1CEF6E1E95E4AA00E37555 /* SwiftUI07_Swift______UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF1CEF601E95E4AA00E37555 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF1CEF491E95E4AA00E37555 /* SwiftUI07-Swift中的手势操作 */;
+			targetProxy = CF1CEF5F1E95E4AA00E37555 /* PBXContainerItemProxy */;
+		};
+		CF1CEF6B1E95E4AA00E37555 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF1CEF491E95E4AA00E37555 /* SwiftUI07-Swift中的手势操作 */;
+			targetProxy = CF1CEF6A1E95E4AA00E37555 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF1CEF511E95E4AA00E37555 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF1CEF521E95E4AA00E37555 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF1CEF561E95E4AA00E37555 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF1CEF571E95E4AA00E37555 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF1CEF701E95E4AA00E37555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF1CEF711E95E4AA00E37555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF1CEF731E95E4AA00E37555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 744C2UT6NN;
+				INFOPLIST_FILE = "SwiftUI07-Swift中的手势操作/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.utsoft.SwiftUI07-Swift------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CF1CEF741E95E4AA00E37555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 744C2UT6NN;
+				INFOPLIST_FILE = "SwiftUI07-Swift中的手势操作/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.utsoft.SwiftUI07-Swift------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CF1CEF761E95E4AA00E37555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 744C2UT6NN;
+				INFOPLIST_FILE = "SwiftUI07-Swift中的手势操作Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.utsoft.SwiftUI07-Swift------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI07-Swift中的手势操作.app/SwiftUI07-Swift中的手势操作";
+			};
+			name = Debug;
+		};
+		CF1CEF771E95E4AA00E37555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 744C2UT6NN;
+				INFOPLIST_FILE = "SwiftUI07-Swift中的手势操作Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.utsoft.SwiftUI07-Swift------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI07-Swift中的手势操作.app/SwiftUI07-Swift中的手势操作";
+			};
+			name = Release;
+		};
+		CF1CEF791E95E4AA00E37555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 744C2UT6NN;
+				INFOPLIST_FILE = "SwiftUI07-Swift中的手势操作UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.utsoft.SwiftUI07-Swift------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "SwiftUI07-Swift中的手势操作";
+			};
+			name = Debug;
+		};
+		CF1CEF7A1E95E4AA00E37555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 744C2UT6NN;
+				INFOPLIST_FILE = "SwiftUI07-Swift中的手势操作UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.utsoft.SwiftUI07-Swift------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "SwiftUI07-Swift中的手势操作";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF1CEF451E95E4AA00E37555 /* Build configuration list for PBXProject "SwiftUI07-Swift中的手势操作" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1CEF701E95E4AA00E37555 /* Debug */,
+				CF1CEF711E95E4AA00E37555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF1CEF721E95E4AA00E37555 /* Build configuration list for PBXNativeTarget "SwiftUI07-Swift中的手势操作" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1CEF731E95E4AA00E37555 /* Debug */,
+				CF1CEF741E95E4AA00E37555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF1CEF751E95E4AA00E37555 /* Build configuration list for PBXNativeTarget "SwiftUI07-Swift中的手势操作Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1CEF761E95E4AA00E37555 /* Debug */,
+				CF1CEF771E95E4AA00E37555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF1CEF781E95E4AA00E37555 /* Build configuration list for PBXNativeTarget "SwiftUI07-Swift中的手势操作UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1CEF791E95E4AA00E37555 /* Debug */,
+				CF1CEF7A1E95E4AA00E37555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF1CEF421E95E4AA00E37555 /* Project object */;
+}
